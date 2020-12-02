@@ -1,0 +1,77 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!--This is my home page
+    This page will show github links and a few photos I took.
+    -->
+
+<div class="border-div" style="text-align:center">
+    <div class="img-text-div">
+        <div class="image-div" style="margin-bottom:0.5rem">
+                <img class="rounded-circle z-depth-2" width="150" height="150" src="~/img/prof-image.jpg" data-holder-rendered="true"/>
+        </div>
+        <div class="box">
+            <h2 style="font-family: 'Raleway';">
+                Ertan Mutlu<br>
+                <span style="font-family: 'Raleway';">Programmer</span>
+                <span style="font-family: 'Raleway';">Photographer</span>
+            </h2>
+
+            <p style="font-family: 'Raleway';">
+                Curious mind, searching for the truth.
+                <br />
+                <i class="fa fa-map-marker"></i> Sofia, Bulgaria
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!--sayfayi ikiye boldum-->
+            <div class="col-6">
+                <div class="image">
+                    <img class="pic" src="~/img/img1.jpg" alt="Blessing" />
+                    <div class="image_overlay image_overlay_blur">
+                        <div class="image_title">
+                            Blessing
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img class="pic" src="~/img/img2.jpg" alt="My Favorite Store" />
+                    <div class="image_overlay image_overlay_blur">
+                        <div class="image_title">
+                            My Favorite Store
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="image">
+                    <img class="pic" src="~/img/img3.jpg" alt="Happiness" />
+                    <div class="image_overlay image_overlay_blur">
+                        <div class="image_title">
+                            Happiness
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img class="pic" src="~/img/img4.jpg" alt="Nobleness" />
+                    <div class="image_overlay image_overlay_blur">
+                        <div class="image_title">
+                            Nobleness
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="button_cont" align="right">
+        <a class="example_a" href="/Photos" target="_blank" rel="nofollow noopener">See More</a>
+    </div>
+    <hr style="margin: 2rem" />
+
+</div>
